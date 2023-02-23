@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="225dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-5dp"
+        app:srcCompat="@drawable/techneed_2020_logo_white" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignEnd="@+id/textD"
+        android:layout_alignRight="@+id/textD"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:textColor="#FBFBFB"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/UserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignEnd="@+id/textD"
+        android:layout_alignRight="@+id/textD"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:textColor="#FBFBFB"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textD"
+        android:layout_alignStart="@+id/textD"
+        android:layout_alignLeft="@+id/textD"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:text="User name"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RegisterBtn"
+        android:layout_alignLeft="@+id/textD"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"
+        android:text="if you registed already click this button"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserEmail"
+        android:layout_alignStart="@+id/UserEmail"
+        android:layout_alignLeft="@+id/UserEmail"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="9dp"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserRole"
+        android:layout_alignStart="@+id/UserName"
+        android:layout_alignLeft="@+id/UserRole"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:text="Email"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserName"
+        android:layout_alignStart="@+id/UserName"
+        android:layout_alignLeft="@+id/UserName"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:text="Role"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/UserPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignEnd="@+id/textD"
+        android:layout_alignRight="@+id/textD"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:inputType="textPassword"
+
+        android:textColor="#FBFBFB"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserPassword"
+        android:layout_alignStart="@+id/UserPassword"
+        android:layout_alignLeft="@+id/UserPassword"
+        android:layout_alignEnd="@+id/UserPassword"
+        android:layout_alignRight="@+id/UserPassword"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:backgroundTint="@color/button"
+        android:text="Register"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <Button
+        android:id="@+id/Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/UserPassword"
+        android:layout_alignLeft="@+id/UserPassword"
+        android:layout_alignEnd="@+id/UserPassword"
+        android:layout_alignRight="@+id/UserPassword"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:backgroundTint="@color/button"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        app:cornerRadius="5dp" />
+
+    <TextView
+        android:id="@+id/textD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-12dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:gravity="center_horizontal"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="#F6F5F5"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/UserRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UserName"
+        android:layout_alignStart="@+id/UserName"
+        android:layout_alignEnd="@+id/UserName"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/edit_text"
+        android:minHeight="50dp"
+        android:spinnerMode="dropdown" />
+
+</RelativeLayout>

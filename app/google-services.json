@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "82730628054",
+    "firebase_url":"https://techneed-project-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "techneed-project",
+    "storage_bucket": "techneed-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82730628054:android:c9e222500b66dd4ddc6a77",
+        "android_client_info": {
+          "package_name": "com.example.techneednurseanddoctorcalling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82730628054-nlhi3277518vinafq4l4ejqokml685sd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.techneednurseanddoctorcalling",
+            "certificate_hash": "d96d9cdc3633de03f88c38c49749a935e1d2075f"
+          }
+        },
+        {
+          "client_id": "82730628054-hsk786bsdsch0jqqg3f02ee2m1003s2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiFcTAJZQjfkcMUKjC26mx51xiee-hDsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82730628054-hsk786bsdsch0jqqg3f02ee2m1003s2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

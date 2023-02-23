@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TECHNEED Nurse and Doctor Calling</string>
+    <string-array name="role">
+        <item>doctor</item>
+        <item>nurse</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".DoctorHome">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="225dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/techneed_2020_logo_white" />
+    <TextView
+        android:id="@+id/textD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#F6F5F5"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/addPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_below="@+id/textD"
+        android:layout_alignStart="@+id/textD"
+        android:layout_alignEnd="@+id/textD"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/button"
+        android:text="Add Patient"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/viewPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_below="@+id/addPatient"
+        android:layout_alignStart="@+id/addPatient"
+        android:layout_alignEnd="@+id/addPatient"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="0dp"
+        android:backgroundTint="@color/button"
+        android:text="View Patient"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_below="@+id/viewPatient"
+        android:layout_marginTop="-10dp"
+        app:srcCompat="@drawable/hospital_patient_rafiki" />
+
+
+</RelativeLayout>
